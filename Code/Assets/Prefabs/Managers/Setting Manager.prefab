@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7558397032650439414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5122756226176774308}
+  - component: {fileID: 2491945854748974179}
+  m_Layer: 0
+  m_Name: Setting Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5122756226176774308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7558397032650439414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2491945854748974179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7558397032650439414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56cfd3f1dd751646a543855b1455d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThemeOption: 0
+  DarkThemeOption: 1
+  ColorblindOption: 1
+  ReducedMotion: 1
+  LanguageOption: 0
+  MessageNotificationOption: 1
+  EmployeesLoggedInNotificationOption: 1
+  EmployeesLoggedOutNotificationOption: 1
+  MCPsFullyLoadedNotificationOption: 1
+  MCPsEmptiedNotificationOption: 1
+  MaintenanceLogsUpdatedNotificationOption: 1
+  SoftwareUpdateAvailableNotificationOption: 1
+  OnlineStatusOption: 0
+  AutomaticallyLogOutOption: 1
+  AutomaticallySendCrashLogsOption: 1

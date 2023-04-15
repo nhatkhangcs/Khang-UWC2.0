@@ -1,0 +1,107 @@
+[
+    {
+        "id": "M.c8eec611",
+        "address": "580 Bà Hạt, P.6, Q.10, TPHCM",
+        "capacity": 127,
+        "latitude": 10.7647293589828,
+        "longitude": 106.663266154958
+    },
+    {
+        "id": "M.09c2ec4b",
+        "address": "500 Nguyễn Tri Phương, P.9, Q.10, TPHCM",
+        "capacity": 82,
+        "latitude": 10.7675037535589,
+        "longitude": 106.667284093661
+    },
+    {
+        "id": "M.a051fe51",
+        "address": "968 3 Tháng 2, P.15, Q.11, TPHCM",
+        "capacity": 142,
+        "latitude": 10.7629567124463,
+        "longitude": 106.656977523526
+    },
+    {
+        "id": "M.e8042868",
+        "address": "389 Lý Thường Kiệt, P.8, Q.Tân Bình, TPHCM",
+        "capacity": 98,
+        "latitude": 10.7815403101810,
+        "longitude": 106.655190599178
+    },
+    {
+        "id": "M.859c3a1d",
+        "address": "334 Tô Hiến Thành, P.14, Q.10, TPHCM",
+        "capacity": 162,
+        "latitude": 10.7771799685277,
+        "longitude": 106.660531841364
+    },
+    {
+        "id": "M.29b36fe5",
+        "address": "54 Thành Thái, P.10, Q.10, TPHCM",
+        "capacity": 128,
+        "latitude": 10.7712254318066,
+        "longitude": 106.665784313171
+    },
+    {
+        "id": "M.75c4a7e9",
+        "address": "300 Lý Thường Kiệt, P.14, Q.10, TPHCM",
+        "capacity": 89,
+        "latitude": 10.7668398628915,
+        "longitude": 106.659288627832
+    },
+    {
+        "id": "M.575d11bd",
+        "address": "96 Phạm Đình Hổ, P.2, Q.6, TPHCM",
+        "capacity": 120,
+        "latitude": 10.752208718089143,
+        "longitude": 106.64971397274442
+    },    
+    {
+        "id": "M.12daeafe",
+        "address": "1150 Lạc Long Quân, P.8, Q.Tân Bình, TPHCM",
+        "capacity": 200,
+        "latitude": 10.786135,
+        "longitude": 106.651209
+    },    
+    {
+        "id": "M.27d4583b",
+        "address": "153 Bắc Hải, P.15, Q.10, TPHCM",
+        "capacity": 201,
+        "latitude": 10.782575,
+        "longitude": 106.660679
+    },    
+    {
+        "id": "M.5bbbe19b",
+        "address": "533 Sư Vạn Hạnh, P.12, Q.10, TPHCM",
+        "capacity": 195,
+        "latitude": 10.775672,
+        "longitude": 106.667233
+    },    
+    {
+        "id": "M.eb96af71",
+        "address": "218 Thành Thái, P.15, Q.10, TPHCM",
+        "capacity": 141,
+        "latitude": 10.776559,
+        "longitude": 106.663600
+    },    
+    {
+        "id": "M.26f59d26",
+        "address": "84 Nguyễn Thị Nhỏ, P.9, Q.Tân Bình, TPHCM",
+        "capacity": 137,
+        "latitude": 10.771117,
+        "longitude": 106.652352
+    },
+    {
+        "id": "M.0e69ea2d",
+        "address": "276 Cách Mạng Tháng Tám, P.15, Q.3, TPHCM",
+        "capacity": 183,
+        "latitude": 10.7807,
+        "longitude": 106.676
+    },
+    {
+        "id": "M.faa08b3e",
+        "address": "93 Lý Thường Kiệt, P.7, Q.10, TPHCM",
+        "capacity": 140,
+        "latitude": 10.7612,
+        "longitude": 106.661
+    }
+]

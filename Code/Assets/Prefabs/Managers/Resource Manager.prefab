@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2675084655724133704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5171972275192068452}
+  - component: {fileID: 1244077849399134187}
+  m_Layer: 0
+  m_Name: Resource Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5171972275192068452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2675084655724133704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1244077849399134187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2675084655724133704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271f62162f994a379f99ab42d6895c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JanitorMapEntity: {fileID: -3910094146263711721, guid: 585a7f03e226e6345bf5e4ddbec3b450, type: 3}
+  CollectorMapEntity: {fileID: 291617131957121066, guid: 553b04c6d2fa8bf4eafcefff74669a45, type: 3}
+  MCPMapEntity: {fileID: 1204344839811287500, guid: 9b6a9d79362a7014fa9f70c2262fb998, type: 3}
+  RoutePolyline: {fileID: -8024716043344373884, guid: fed8363b7c0814b4a940545a63d7ebf4, type: 3}
+  AssigningMcpListItemView: {fileID: 4660396367143848769, guid: 25e517736b9ad9b40b4f489f1ef02e5b, type: 3}
+  StaffDataListItemView: {fileID: 159451244734110603, guid: 30cdafee5e59f8048ac9b3234cafd669, type: 3}
+  MCPDataListItemView: {fileID: 794534301797327578, guid: aec04517cc38ba14b8f473c32dd835bb, type: 3}
+  VehicleDataListItemView: {fileID: 7133057977387643178, guid: 4fed4a9479c71f749b80033d810840be, type: 3}
+  InboxListItemView: {fileID: 4792924157461828066, guid: 582539b7c7201dc498dfcbb3d59b9e9e, type: 3}
+  MessageDataListItemView: {fileID: 7486744971134653159, guid: 461d1512a237c3944a994f912da912db, type: 3}
+  TaskDataListItemView: {fileID: 7819903169011382665, guid: 2f80dee7bb424234ea8645366f2f86c5, type: 3}
+  SettingSectionHeader: {fileID: -2267228613275553751, guid: 6e0149c31b71b9b4d8eeef64c8db76c0, type: 3}
+  SettingListItemView: {fileID: 9194201250070096155, guid: 5835b56659224ee4dbb51e94198d5790, type: 3}
+  SettingOptionButton: {fileID: 3698261493187541774, guid: 02716099162d4ef4f80d6db1d02edfd0, type: 3}
+  Notification: {fileID: 1257836352871542252, guid: e6f516d8697ce124a8e14ca57e41b85c, type: 3}

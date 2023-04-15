@@ -1,0 +1,38 @@
+[
+    {
+        "user_id": "a16231a6af",
+        "theme_colour": 1,
+        "dark_theme": 1,
+        "colour_blind": 1,
+        "reduced_motion": 0,
+        "language": "english",
+        "message_notify": 1,
+        "employees_login": 0,
+        "employees_logout": 0,
+        "mcp_full_notify": 1,
+        "mcp_empty_notify": 0,
+        "maintain_log_update": 0,
+        "update_notify": 1,
+        "online_status": "online",
+        "auto_logout": 1,
+        "auto_send_crash_log": 0
+    },
+    {
+        "user_id": "a9c6df082e",
+        "theme_colour": 3,
+        "dark_theme": 0,
+        "colour_blind": 0,
+        "reduced_motion": 0,
+        "language": "vietnamese",
+        "message_notify": 1,
+        "employees_login": 1,
+        "employees_logout": 1,
+        "mcp_full_notify": 1,
+        "mcp_empty_notify": 0,
+        "maintain_log_update": 0,
+        "update_notify": 1,
+        "online_status": "online",
+        "auto_logout": 0,
+        "auto_send_crash_log": 1
+    }
+]

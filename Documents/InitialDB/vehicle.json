@@ -1,0 +1,66 @@
+[
+    {
+        "id": "23D-696.21",
+        "category": "Frontloader",
+        "model": "BRUH-BRUH",
+        "weight": 20000,
+        "capacity": 8500,
+        "fuel_consumption": 50 
+    },
+    {
+        "id": "51F-785.65",
+        "category": "Sideloader",
+        "model": "LMAO-420",
+        "weight": 17500,
+        "capacity": 5000,
+        "fuel_consumption": 32 
+    },
+    {
+        "id": "12T-312.75",
+        "category": "Sideloader",
+        "model": "GIVE-UP",
+        "weight": 12500,
+        "capacity": 4000,
+        "fuel_consumption": 30 
+    },
+    {
+        "id": "63G-777.77",
+        "category": "Rearloader",
+        "model": "CR7-SIUU",
+        "weight": 21500,
+        "capacity": 5200,
+        "fuel_consumption": 53
+    },
+    {
+        "id": "32H-123.89",
+        "category": "Sideloader",
+        "model": "HELP-ME-PLS",
+        "weight": 16700,
+        "capacity": 4400,
+        "fuel_consumption": 31
+    },
+    {
+        "id": "45A-194.23",
+        "category": "Rearloader",
+        "model": "MU-VO-DOI",
+        "weight": 30000,
+        "capacity": 4750,
+        "fuel_consumption": 28
+    },
+    {
+        "id": "51B-910.43",
+        "category": "Frontloader",
+        "model": "CHU-TICH-M3P",
+        "weight": 26180,
+        "capacity": 2810,
+        "fuel_consumption": 25
+    },
+    {
+        "id": "41U-819.32",
+        "category": "Rearloader",
+        "model": "LAKAKA",
+        "weight": 31130,
+        "capacity": 3200,
+        "fuel_consumption": 30
+    }
+]
