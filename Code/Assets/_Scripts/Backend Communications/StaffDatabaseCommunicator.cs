@@ -23,7 +23,9 @@ public class StaffDatabaseCommunicator : MonoBehaviour
             BackendCommunicator.CreateGetRequest(string.Format(GET_EMPLOYEE_BY_USERNAME_PATH, username));
         yield return request.SendWebRequest();
 
+        
         Debug.Log(request.downloadHandler.text);
+        //Debug.Log("THUAN TESTING "+ request.downloadHandler.text + " "+ request.result);
         if (request.result is not (UnityWebRequest.Result.Success or UnityWebRequest.Result.ProtocolError
             ))
         {

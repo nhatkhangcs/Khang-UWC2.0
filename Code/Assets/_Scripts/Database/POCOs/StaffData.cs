@@ -19,7 +19,7 @@ public class StaffData : Data
 
     [JsonProperty("nationality")] public string Nationality { get; set; }
 
-    [JsonProperty("hired_on")] public DateTime HiredOn { get; set; }
+    [JsonProperty("hired_on")] public string HiredOn { get; set; }
 
     [JsonProperty("role")] public string Role { get; set; }
 
