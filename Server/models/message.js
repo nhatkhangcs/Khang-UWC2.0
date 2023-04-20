@@ -3,11 +3,13 @@ const query = require('../db/query');
 
 async function addMessage(messageInfo) {
     if(messageInfo.sentAt) {
-        const q = "INSERT INTO message VALUES (?,?,?,?)";
+        const q = "INSERT INTO message VALUES (?, ?,?,?,?)";
         const params = [
+            messageInfo.id,
             messageInfo.sender_id,
             messageInfo.receiver_id,
-            messageInfo.sentAt,
+            messageInfo.date,
+            messageInfo.time,
             messageInfo.content
         ];
         await query(conn, q, params);
