@@ -25,7 +25,9 @@ async function addMCP(mcp) {
 }
 
 async function getMCPById(id) {
+
     const res = await query(conn, "SELECT * FROM mcp WHERE id=?", { id });
+
     return res.length ? res[0] : null;
 }
 

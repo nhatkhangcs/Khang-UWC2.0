@@ -8,12 +8,14 @@ function generateRandomId() {
 }
 
 async function addMessage(messageInfo) {
+
     //if(messageInfo.sendAt)
         let id = generateRandomId().toString();
         
         const q = "INSERT INTO message VALUES (?,?,?,?,?,?)";
         const params = [
             id,
+
             messageInfo.sender_id,
             messageInfo.receiver_id,
             messageInfo.date,
