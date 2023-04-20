@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AccountManager : PersistentSingleton<AccountManager>
 {
-    [HideInInspector] public string AccountID;
+    public string AccountID;
 
     private LoginToken loginToken;
 

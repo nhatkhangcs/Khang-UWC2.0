@@ -24,7 +24,8 @@ public class Chatbox : MonoBehaviour, IShowHideAnimatable
             {
                 SenderID = AccountManager.Instance.AccountID,
                 ReceiverID = RecipientID,
-                Timestamp = DateTime.Now,
+                Date = DateTime.Now.ToString("dd/MM/yyyy"),
+                Time = DateTime.Now.ToString("hh:mm"),
                 Content = content
             };
 
@@ -38,6 +39,11 @@ public class Chatbox : MonoBehaviour, IShowHideAnimatable
         });
     }
 
+    public void SubmitMessage()
+    {
+        inputField.onSubmit.Invoke(inputField.text);
+    }
+    
     public virtual Task AnimateShow()
     {
         return rectTransform.DOAnchorPosX(0, VisualManager.Instance.ListAndPanelTime)

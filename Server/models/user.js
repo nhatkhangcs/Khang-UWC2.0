@@ -7,12 +7,13 @@ async function createAccount(user) {
     // initialization
     const q = "INSERT INTO employee(id, name, gender, image, birthday, address, phoneNo, nationality, hired_on, role, salary, username, password) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
     const hashPassword = await bcrypt.hash(user.password, 10);
-    let id = crypto.randomBytes(5).toString('hex');
-
+    //let id = crypto.randomBytes(5).toString('hex');
+    let id = user.id;
+    
     // check for id duplication
     const findDuplicate = await query(conn, "SELECT id FROM employee WHERE ?", { id });
     while(findDuplicate.length){
-        id = crypto.randomBytes(5).toString('hex');
+        id = id + 1;
         findDuplicate = await query(conn, "SELECT id FROM employee WHERE ?", { id });
     }
 

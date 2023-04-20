@@ -13,8 +13,9 @@ async function addMCP(req, res) {
 
 async function getMCPById(req, res) {
     try {
+        console.log(req.id +" req res " + res.id );
         const result = await MCP.getMCPById(req.params.id);
-        if(!result) return res.status(404).send("MCP not found");        
+        if(!result) return res.status(404).send("MCP not found Id");        
         res.send(result);
     } catch(err) {
         console.log(err);
@@ -25,7 +26,7 @@ async function getMCPById(req, res) {
 async function getMCPByCoordinate(req, res) {
     try {
         const result = await MCP.getMCPByCoordinate(req.body.latitude, req.body.longitude);
-        if(!result) return res.status(404).send("MCP not found");        
+        if(!result) return res.status(404).send("MCP not found Coordinate ");        
         res.send(result);      
     } catch(err) {
         console.log(err);
@@ -46,7 +47,7 @@ async function updateMCPCurrent(req, res) {
 async function getMCPCurrent(req, res) {
     try {
         const result = await MCP.getMCPCurrent(req.params.id);
-        if(!result) return res.status(404).send("MCP not found");        
+        if(!result) return res.status(404).send("MCP not found Current");        
         res.send(result);      
     } catch(err) {
         console.log(err);
@@ -55,10 +56,11 @@ async function getMCPCurrent(req, res) {
 }
 
 async function getMCPCurrentPercentage(req, res) {
+
     try {
         const mcp = await MCP.getMCPById(req.params.id);
         const current = await MCP.getMCPCurrent(req.params.id);
-        if(!mcp || !current) return res.status(404).send("MCP not found");        
+        if(!mcp || !current) return res.status(404).send("MCP not found + Percentage mcp "+ mcp+ " current " + current);        
 
         const percentage = (current.current / mcp.capacity) * 100;
         console.log(current.current);
@@ -76,7 +78,7 @@ async function getMCPCurrentPercentage(req, res) {
 async function simulateMCPStatusUpdating(req, res) {
     try {
         const current = await MCP.getMCPCurrent(req.params.id);
-        if(!current) return res.status(404).send("MCP not found");
+        if(!current) return res.status(404).send("MCP not found Simulate ");
 
         const increment = Math.round(Math.random()*20);
         current.current += increment;
