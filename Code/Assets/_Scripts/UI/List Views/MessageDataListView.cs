@@ -48,7 +48,8 @@ public class MessageDataListView : DataListView<MessageData>
             {
                 if (isSucceeded)
                 {
-                    data.Sort((messageA, messageB) => messageA.Timestamp > messageB.Timestamp ? 1 : -1);
+                    //data.Sort((messageA, messageB) => messageA.Timestamp > messageB.Timestamp ? 1 : -1);
+                    // TODO 
                     foreach (var messageData in data)
                     {
                         AddDataItem(messageData);

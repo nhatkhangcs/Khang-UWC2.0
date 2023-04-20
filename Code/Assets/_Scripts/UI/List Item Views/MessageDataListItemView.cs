@@ -11,7 +11,8 @@ public class MessageDataListItemView : DataListItemView<MessageData>
         base.SetData(data);
 
         PrimaryText = data.Content;
-        SecondaryText = data.Timestamp.ToString("hh:mm:ss dd/MM/yy");
+        //SecondaryText = data.Timestamp.ToString("hh:mm:ss dd/MM/yy");
+        SecondaryText = data.Date + " "+ data.Time;
 
         if (data.SenderID == AccountManager.Instance.AccountID)
         {
