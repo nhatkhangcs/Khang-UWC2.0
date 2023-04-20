@@ -78,7 +78,7 @@ public class MCPMapEntity : SingleCoordinateMapEntity<MCPData>
         ChangeToInfoMode();
         HideDisc();
         
-        
+        // Test
         Debug.Log("ID MCP "+ data.ID + " Cap "+data.Capacity+ " Pos "+ data.Latitude +" , "+ data.Longitude + " address "+ data.Address);
     }
 
